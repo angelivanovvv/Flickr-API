@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.63980e99.chunk.css",
-  "main.js": "/static/js/main.44a89ef8.chunk.js",
-  "main.js.map": "/static/js/main.44a89ef8.chunk.js.map",
-  "static/css/1.e1d92145.chunk.css": "/static/css/1.e1d92145.chunk.css",
-  "static/js/1.b74aaaf2.chunk.js": "/static/js/1.b74aaaf2.chunk.js",
-  "static/js/1.b74aaaf2.chunk.js.map": "/static/js/1.b74aaaf2.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.e1d92145.chunk.css.map": "/static/css/1.e1d92145.chunk.css.map",
-  "static/css/main.63980e99.chunk.css.map": "/static/css/main.63980e99.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.662569335fe48eda104753f138691268.js": "/precache-manifest.662569335fe48eda104753f138691268.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/angelivanovvv/Flickr-API/static/css/main.63980e99.chunk.css",
+  "main.js": "/angelivanovvv/Flickr-API/static/js/main.44a89ef8.chunk.js",
+  "main.js.map": "/angelivanovvv/Flickr-API/static/js/main.44a89ef8.chunk.js.map",
+  "static/css/1.e1d92145.chunk.css": "/angelivanovvv/Flickr-API/static/css/1.e1d92145.chunk.css",
+  "static/js/1.b74aaaf2.chunk.js": "/angelivanovvv/Flickr-API/static/js/1.b74aaaf2.chunk.js",
+  "static/js/1.b74aaaf2.chunk.js.map": "/angelivanovvv/Flickr-API/static/js/1.b74aaaf2.chunk.js.map",
+  "runtime~main.js": "/angelivanovvv/Flickr-API/static/js/runtime~main.73d7a995.js",
+  "runtime~main.js.map": "/angelivanovvv/Flickr-API/static/js/runtime~main.73d7a995.js.map",
+  "static/css/main.63980e99.chunk.css.map": "/angelivanovvv/Flickr-API/static/css/main.63980e99.chunk.css.map",
+  "static/css/1.e1d92145.chunk.css.map": "/angelivanovvv/Flickr-API/static/css/1.e1d92145.chunk.css.map",
+  "index.html": "/angelivanovvv/Flickr-API/index.html",
+  "precache-manifest.7b2e0a1205fe7bc36eeb8db6a1d08acb.js": "/angelivanovvv/Flickr-API/precache-manifest.7b2e0a1205fe7bc36eeb8db6a1d08acb.js",
+  "service-worker.js": "/angelivanovvv/Flickr-API/service-worker.js"
 }
