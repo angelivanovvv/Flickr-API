@@ -1,0 +1,1 @@
+export const INIT_PAGE_NUMBER = 'INIT_PAGE_NUMBER';

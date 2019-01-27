@@ -1,0 +1,63 @@
+/*---------- CARD PHOTO ----------*/
+
+.cardPhotoContainer {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: $cardPhotoBackground;
+  overflow: hidden;
+  margin-bottom: 25px;
+
+  .imageWrapper {
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .contentWrapper {
+    margin: 20px 0;
+    padding: 0 20px;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+
+      .title a {
+        color: $textColor;
+      }
+
+      .author a {
+          color: $authorColor;
+          font-style: $italicFontStyle;
+      }
+
+    }
+    .body {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 15px;
+      color: $textColor;
+      overflow: hidden;
+      white-space: pre-line;
+
+      .description {
+        width: 100%;
+      }
+    }
+    .footer {
+      display: flex;
+      justify-content: flex-start;
+      color: $tagsColor;
+
+      .tags {
+        color: $tagsColor;
+      }
+    }
+  }
+}

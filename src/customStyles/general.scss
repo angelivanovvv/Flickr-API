@@ -1,0 +1,38 @@
+/*---------- GENERAL STYLES ----------*/
+body {
+  background-color: $rgbaGray;
+};
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fontFamily;
+  color: $textColor;
+}
+
+p {
+  font-family: $fontFamily;
+  color: $textColor;
+  font-size: $fontSize;
+}
+
+a {
+  font-family: $fontFamily;
+  color: $textColor;
+  font-size: $fontSize;
+}
+
+span {
+  font-family: $fontFamily;
+  color: $textColor;
+  font-size: $fontSize;
+}
+
+.errorMessage {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+
+  p {
+    color: $error;
+    font-size: $fontSize;
+  }
+}

@@ -1,0 +1,36 @@
+/*---------- Colors ----------*/
+$white: #ffffff;
+$black: #000000;
+$red: #FF0000;
+$rgbaGray: rgba(183,183,183, 0.7);
+$grayLight: #b7b7b7;
+$grayDark: #858585;
+$blueDark: #252e3f;
+$transparent: transparent;
+
+/*---------- Elements ----------*/
+$backgroundColor: $grayLight;
+$imageBoxBackground: $white;
+$textColor: $black;
+$tagsColor: $grayDark;
+$authorColor: $grayDark;
+$buttonBackground: $blueDark;
+$buttonColor: $blueDark;
+$cardPhotoBackground: $white;
+$error: $red;
+$grayDisabled: #5F6460;
+$grayBorder: #7e7365;
+$grayColor: #ccc;
+
+/*---------- Fonts ----------*/
+
+$fontFamily: 'Ubuntu', sans-serif;
+$fontSize: 16px;
+$italicFontStyle: italic;
+
+/*---------- Break Points ----------*/
+
+$phone-width: 576px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$lagre-desktop-width: 1200px;

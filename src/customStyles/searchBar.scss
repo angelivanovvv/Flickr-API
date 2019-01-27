@@ -1,0 +1,103 @@
+/*---------- SEARCH BAR ----------*/
+
+.searchBarContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @include tablet {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .searchWrapper {
+    display: inline-block;
+    width: 350px;
+    height: 35px;
+    margin-right: 20px;
+    background-color: $white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    @include tablet {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .searchIcon {
+      padding-left: 10px;
+      width: 5%;
+      height: 100%;
+      display: inline;
+
+      @include phone {
+        padding-left: 5px;
+      }
+    }
+
+    .searchInput {
+      width: auto;
+      height: 100%;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      outline: none;
+      border: $transparent;
+      margin-left: 10px;
+
+      @include phone {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .buttonWrapper {
+    display: inline-block;
+
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .searchBtn {
+      width: 110px;
+      height: 35px;
+      background-color: $buttonBackground;
+      color: $white;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border: $transparent;
+      font-family: $fontFamily;
+      font-weight: 400;
+      outline: none;
+      cursor: pointer;
+      margin-right: 10px;
+
+      &:disabled {
+        cursor: not-allowed;
+        background-color: $grayDisabled;
+        border: 1px solid $grayBorder;
+        color: $grayColor;
+      }
+    }
+
+    .clearBtn {
+      width: 110px;
+      height: 35px;
+      background-color: $transparent;
+      color: $blueDark;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border: 2px solid $blueDark;
+      font-family: $fontFamily;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
